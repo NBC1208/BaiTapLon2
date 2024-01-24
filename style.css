@@ -1,0 +1,314 @@
+body{
+    width: 1305px;
+}
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+.Menu{
+    padding-top: 20px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.Menu-A{
+    padding-left:50px;
+}
+.Menu1{
+    border: 1px solid wheat;
+    padding: 8px 16px;
+    align-items: center;
+}
+.Menu3{
+    padding-top: 10px;
+    font-size: 30px;
+}
+.Menu3-a{
+    color: rgb(180, 128, 128);
+}
+.Menu4{
+    padding-top: 10px;
+    font-size: 30px;
+}
+.Menu4-a{
+    color: rgb(180, 128, 128);
+}
+.Menu5{
+    list-style: none;
+    display: flex;
+    padding-right: 20px;
+}
+.Menu6{
+    padding-top: 15px;
+    padding-left: 5px;
+    font-size: 18px;
+}
+.Menu7{
+    text-decoration: none;
+    border-right: 1px solid goldenrod;
+    color: rgb(82, 60, 60);
+}
+.Menu7:hover{
+    color: goldenrod;
+}
+
+ul.A{
+    background-color: rgb(241, 89, 89);
+    display: flex;
+    list-style: none;
+    font-size: 15px; 
+}
+ul.A li.A2{
+    width: 165px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-right: 1px solid white;
+    text-align: center
+}
+ul.A li.A2:last-child{
+    border: none;
+}
+.A3{
+    text-decoration: none;
+    color: white;
+}
+ul.A li.A2 ul.A5{
+    list-style: none;
+    position: absolute;
+    background-color: rgb(196, 140, 248);
+    top: 130px;
+    width: 165px;
+    display: none;
+}
+ul.A li.A2:hover ul.A5{
+    display: block;
+}
+ul.A li.A2 ul.A5 li.A4{
+    padding: 10px;
+    border-bottom: 1px solid wheat;
+    background-color: rgb(255, 209, 111);
+}
+ul.A li.A2 ul.A5 li.A4:hover{
+    background-color: rgb(127, 247, 163);
+}
+.A6{
+    text-decoration: none;
+}
+
+ul.SanPham{
+    list-style: none;
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+ul.SanPham li{
+    flex-basis: 11%;
+    padding-left: 2px;
+    padding-right: 2px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+ul.SanPham li .SanPham-info{
+    border-radius: 8px;
+    border: 1px solid rgb(250, 110, 110);
+    background-color: rgb(250, 110, 110);
+    width: 100px;
+    text-align: center;
+}
+ul.SanPham li .SanPham-info a{
+    text-decoration: none;
+}
+.SanPham-name{
+    color: white;
+    font-size: 16px;
+}
+.SanPham-name:hover{
+    color: rgb(22, 234, 241);
+}
+
+.hinh{
+    display: flex;
+    list-style: none;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+ul.SanPham1{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    list-style: none;
+    display: flex;
+    padding-left: 35px;
+}
+ul.SanPham1 li{
+    padding-left: 20px;
+    padding-right: 25px;
+    border: 1px solid wheat;
+}
+a.SanPham1-name{
+    color: rgb(131, 110, 110);
+}
+a.SanPham1-name:hover{
+    color: crimson;
+}
+.Gia{
+    padding-top: 8px;
+    padding-bottom: 9px;
+}
+.Gia2{
+    background-color: antiquewhite;
+    border: none;
+    color: red;
+}
+.Gia2:hover{
+    background-color: aqua;
+}
+.Gia3{
+    background-color: antiquewhite;
+    padding-left: 8px;
+}
+.fa-solid{
+    color: coral;
+}
+.fa-solid:hover{
+    color: cornflowerblue
+}
+.Gia4{
+    color: coral;
+    padding-left: 5px;
+}
+.Gia4:hover{
+    color: cornflowerblue;
+}
+ul.SanPham1 li .SanPham1-info a{
+    text-decoration: none;
+}
+
+ul.SanPham2{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    list-style: none;
+    display: flex;
+    padding-left: 35px;
+}
+ul.SanPham2 li{
+    padding-left: 20px;
+    padding-right: 25px;
+    border: 1px solid wheat;
+}
+a.SanPham2-name{
+    color: rgb(131, 110, 110);
+}
+a.SanPham2-name:hover{
+    color: crimson;
+}
+ul.SanPham2 li .SanPham2-info a{
+    text-decoration: none;
+}
+
+ul.SanPham3{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    list-style: none;
+    display: flex;
+    padding-left: 35px;
+}
+ul.SanPham3 li{
+    padding-left: 20px;
+    padding-right: 25px;
+    border: 1px solid wheat;
+}
+a.SanPham3-name{
+    color: rgb(131, 110, 110);
+}
+a.SanPham3-name:hover{
+    color: crimson;
+}
+ul.SanPham3 li .SanPham3-info a{
+    text-decoration: none;
+}
+
+ul.SanPham4{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    list-style: none;
+    display: flex;
+    padding-left: 35px;
+}
+ul.SanPham4 li{
+    padding-left: 20px;
+    padding-right: 25px;
+    border: 1px solid wheat;
+}
+a.SanPham4-name{
+    color: rgb(131, 110, 110);
+}
+a.SanPham4-name:hover{
+    color: crimson;
+}
+ul.SanPham4 li .SanPham4-info a{
+    text-decoration: none;
+}
+
+ul.SanPham5{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    list-style: none;
+    display: flex;
+    padding-left: 35px;
+}
+ul.SanPham5 li{
+    padding-left: 20px;
+    padding-right: 25px;
+    border: 1px solid wheat;
+}
+a.SanPham5-name{
+    color: rgb(131, 110, 110);
+}
+a.SanPham5-name:hover{
+    color: crimson;
+}
+
+
+ul.SanPham6{
+    list-style: none;
+    display: flex;
+    background-color: antiquewhite;
+}
+.SanPham6-HinhAnh{
+    padding-left: 35px;
+    padding-top: 15px;
+}
+ul.SanPham6 li{
+    padding-left: 30px;
+    padding-right: 20px;
+}
+ul.SanPham6 li .SanPham6-info{
+    line-height: 1.5;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.SanPham6-info:hover{
+    color: red;
+}
+ul.SanPham6 li .SanPham6-TieuDe{
+    padding-left: 35px;
+    color: rgb(2, 0, 0);
+}
+.sanPham6-Email{
+    padding-top: 10px;
+    padding-left: 35px;
+}
+
+
+ul.SanPham7{
+    list-style: none;
+    display: flex;
+}
+ul.SanPham7 li .SanPham7-HinhAnh{
+    padding-left: 15px;
+    padding-right: 15px;
+}
